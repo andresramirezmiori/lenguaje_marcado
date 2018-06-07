@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<return>
+	<proyecto>
+		<Capa>Clínica</Capa>
+		<Nombre>HCE primer nivel</Nombre>
+		<Responsable>Florencia Faretta</Responsable>
+		<Tutor>Leandro Alassia</Tutor>
+		<Objetivos>Diseñar un modelo de HCE que satisfaga los casos de uso del 1er nivel</Objetivos>
+		<Etapas>Diseño y planificación de la solución</Etapas>
+		<Prioridad>Alta</Prioridad>
+		<UltimaPresentacion>24/01/2018</UltimaPresentacion>
+		<ProximaPresentación></ProximaPresentación>
+		<Desarrollo>Si</Desarrollo>
+		<Procedimiento>No aplica</Procedimiento>
+		<Contingencia>Revisión</Contingencia>
+		<EstadoInstructivo></EstadoInstructivo>
+		<Capacitación></Capacitación>
+		<SalidaEstadistica></SalidaEstadistica>
+		<Jefes ></Jefes >
+		<ComunicacionOficial></ComunicacionOficial>
+		<BoletinSemanal></BoletinSemanal>
+		<CampusVirtual></CampusVirtual>
+	</proyecto>
+	<proyecto>
+		<Capa>Admin</Capa>
+		<Nombre>Federación personas</Nombre>
+		<Responsable>Candela Burgo</Responsable>
+		<Tutor>Victoria Giussi</Tutor>
+		<Objetivos>Integrar SIGEHOS con la federación de personas a nivel nacional </Objetivos>
+		<Etapas>Diseño y planificación de la solución</Etapas>
+		<Prioridad>Media</Prioridad>
+		<UltimaPresentacion>3/01/2018</UltimaPresentacion>
+		<ProximaPresentación></ProximaPresentación>
+		<Desarrollo>Si</Desarrollo>
+		<Procedimiento>Se aguardan definiciones de Nación</Procedimiento>
+		<Contingencia>En construcción</Contingencia>
+		<EstadoInstructivo></EstadoInstructivo>
+		<Capacitación></Capacitación>
+		<SalidaEstadistica></SalidaEstadistica>
+		<Jefes ></Jefes >
+		<ComunicacionOficial></ComunicacionOficial>
+		<BoletinSemanal></BoletinSemanal>
+		<CampusVirtual></CampusVirtual>
+	</proyecto>
+	<proyecto>
+		<Capa>Clínica</Capa>
+		<Nombre>Salud Escolar</Nombre>
+		<Responsable>Romina Frangella</Responsable>
+		<Tutor>Leandro Alassia</Tutor>
+		<Objetivos>Proponer un plan de integración de los procesos de SE con los de HCE</Objetivos>
+		<Etapas>Diseño y planificación de la solución</Etapas>
+		<Prioridad>Media</Prioridad>
+		<UltimaPresentacion>10/01/2018</UltimaPresentacion>
+		<ProximaPresentación></ProximaPresentación>
+		<Desarrollo>Si</Desarrollo>
+		<Procedimiento>No aplica</Procedimiento>
+		<Contingencia>En construcción</Contingencia>
+		<EstadoInstructivo></EstadoInstructivo>
+		<Capacitación></Capacitación>
+		<SalidaEstadistica></SalidaEstadistica>
+		<Jefes ></Jefes >
+		<ComunicacionOficial></ComunicacionOficial>
+		<BoletinSemanal></BoletinSemanal>
+		<CampusVirtual></CampusVirtual>
+	</proyecto>
+	<proyecto>
+		<Capa>Admin</Capa>
+		<Nombre>Reporte prácticas (Anatomia Patologica)</Nombre>
+		<Responsable>Romina Frangella</Responsable>
+		<Tutor>Mariano Franco</Tutor>
+		<Objetivos>Proponer una solución para el reporte de prácticas hospitalarias integrado con la solicitud y visualización en HCE</Objetivos>
+		<Etapas>Desarrollo</Etapas>
+		<Prioridad>Alta</Prioridad>
+		<UltimaPresentacion>10/01/2018</UltimaPresentacion>
+		<ProximaPresentación></ProximaPresentación>
+		<Desarrollo>Si</Desarrollo>
+		<Procedimiento>Pendiente</Procedimiento>
+		<Contingencia>Pendiente</Contingencia>
+		<EstadoInstructivo>En construcción</EstadoInstructivo>
+		<Capacitación>Ambas</Capacitación>
+		<SalidaEstadistica></SalidaEstadistica>
+		<Jefes >Si</Jefes >
+		<ComunicacionOficial>Si</ComunicacionOficial>
+		<BoletinSemanal>Si</BoletinSemanal>
+		<CampusVirtual></CampusVirtual>
+	</proyecto>
+	<proyecto>
+		<Capa>Admin</Capa>
+		<Nombre>Re ingenieria de turnos (incluye 147)</Nombre>
+		<Responsable>Victoria Risoli</Responsable>
+		<Tutor>Mariano Franco</Tutor>
+		<Objetivos>Comprender los procesos asociados al otorgamiento de turnos en los efectores de salud y proponer soluciones de integración. Incluye 147, COPS/IVR </Objetivos>
+		<Etapas>Diseño y planificación de la solución</Etapas>
+		<Prioridad>Alta</Prioridad>
+		<UltimaPresentacion></UltimaPresentacion>
+		<ProximaPresentación></ProximaPresentación>
+		<Desarrollo>Si</Desarrollo>
+		<Procedimiento>Revisión</Procedimiento>
+		<Contingencia>En construcción</Contingencia>
+		<EstadoInstructivo></EstadoInstructivo>
+		<Capacitación></Capacitación>
+		<SalidaEstadistica></SalidaEstadistica>
+		<Jefes ></Jefes >
+		<ComunicacionOficial></ComunicacionOficial>
+		<BoletinSemanal></BoletinSemanal>
+		<CampusVirtual></CampusVirtual>
+	</proyecto>
+	<proyecto>
+		<Capa>Clínica</Capa>
+		<Nombre>SAME</Nombre>
+		<Responsable>Victoria Risoli</Responsable>
+		<Tutor>Victoria Giussi</Tutor>
+		<Objetivos>Proponer una solución para integrar la ficha clinica con los procesos del 911 y los hospitalarios y facilitar el recupero de gastos </Objetivos>
+		<Etapas>Diseño y planificación de la solución</Etapas>
+		<Prioridad>Media</Prioridad>
+		<UltimaPresentacion>17/01/2018</UltimaPresentacion>
+		<ProximaPresentación>7/02/2018</ProximaPresentación>
+		<Desarrollo>Si</Desarrollo>
+		<Procedimiento>En construcción</Procedimiento>
+		<Contingencia>En construcción</Contingencia>
+		<EstadoInstructivo>En construcción</EstadoInstructivo>
+		<Capacitación>Ambas (Presenciales y Virtuales)</Capacitación>
+		<SalidaEstadistica></SalidaEstadistica>
+		<Jefes >Si</Jefes >
+		<ComunicacionOficial>Si</ComunicacionOficial>
+		<BoletinSemanal>Si</BoletinSemanal>
+		<CampusVirtual>Si</CampusVirtual>
+	</proyecto>
+	<proyecto>
+		<Capa>Clínica</Capa>
+		<Nombre>BASalud (vacunas)</Nombre>
+		<Responsable>Victoria Vazquez</Responsable>
+		<Tutor>Leandro Alassia</Tutor>
+		<Objetivos>Diseñar soluciones moviles que acompañen el plan de salud y se integren con los sistemas de información de gobierno</Objetivos>
+		<Etapas>Definición del problema / necesidad y relevamiento</Etapas>
+		<Prioridad>Baja</Prioridad>
+		<UltimaPresentacion></UltimaPresentacion>
+		<ProximaPresentación></ProximaPresentación>
+		<Desarrollo>Si</Desarrollo>
+		<Procedimiento>No aplica</Procedimiento>
+		<Contingencia></Contingencia>
+		<EstadoInstructivo></EstadoInstructivo>
+		<Capacitación></Capacitación>
+		<SalidaEstadistica></SalidaEstadistica>
+		<Jefes ></Jefes >
+		<ComunicacionOficial></ComunicacionOficial>
+		<BoletinSemanal></BoletinSemanal>
+		<CampusVirtual></CampusVirtual>
+	</proyecto>
+	<proyecto>
+		<Capa>Admin</Capa>
+		<Nombre>Equipos Territoriales</Nombre>
+		<Responsable>Florencia Faretta</Responsable>
+		<Tutor>Mariano Franco</Tutor>
+		<Objetivos>Continuar con rediesño de asignación de equipos y medicos de cabecera. Definir necesidades de Información y registro de los equipos</Objetivos>
+		<Etapas>Definición del problema / necesidad y relevamiento</Etapas>
+		<Prioridad>Alta</Prioridad>
+		<UltimaPresentacion></UltimaPresentacion>
+		<ProximaPresentación></ProximaPresentación>
+		<Desarrollo>Si</Desarrollo>
+		<Procedimiento>Revisión</Procedimiento>
+		<Contingencia></Contingencia>
+		<EstadoInstructivo></EstadoInstructivo>
+		<Capacitación></Capacitación>
+		<SalidaEstadistica></SalidaEstadistica>
+		<Jefes ></Jefes >
+		<ComunicacionOficial></ComunicacionOficial>
+		<BoletinSemanal></BoletinSemanal>
+		<CampusVirtual></CampusVirtual>
+	</proyecto>
+	<proyecto>
+		<Capa>Clínica</Capa>
+		<Nombre>Odontograma</Nombre>
+		<Responsable>Juan Stok</Responsable>
+		<Tutor>Leandro Alassia</Tutor>
+		<Objetivos>Establecer etapas de implementación de la herramienta</Objetivos>
+		<Etapas>Desarrollo</Etapas>
+		<Prioridad>Alta</Prioridad>
+		<UltimaPresentacion></UltimaPresentacion>
+		<ProximaPresentación></ProximaPresentación>
+		<Desarrollo>Si</Desarrollo>
+		<Procedimiento>No aplica</Procedimiento>
+		<Contingencia>En construcción</Contingencia>
+		<EstadoInstructivo>En construcción</EstadoInstructivo>
+		<Capacitación></Capacitación>
+		<SalidaEstadistica></SalidaEstadistica>
+		<Jefes ></Jefes >
+		<ComunicacionOficial></ComunicacionOficial>
+		<BoletinSemanal></BoletinSemanal>
+		<CampusVirtual></CampusVirtual>
+	</proyecto>
+	<proyecto>
+		<Capa>Clínica</Capa>
+		<Nombre>Vacunas</Nombre>
+		<Responsable>Victoria Vazquez</Responsable>
+		<Tutor>Leandro Alassia</Tutor>
+		<Objetivos>Evaluar problemáticas actuales del modulo. solicitar re diseño integrando con sistemas de nacion </Objetivos>
+		<Etapas>Diseño y planificación de la solución</Etapas>
+		<Prioridad>Alta</Prioridad>
+		<UltimaPresentacion></UltimaPresentacion>
+		<ProximaPresentación></ProximaPresentación>
+		<Desarrollo>Si</Desarrollo>
+		<Procedimiento>No aplica</Procedimiento>
+		<Contingencia></Contingencia>
+		<EstadoInstructivo></EstadoInstructivo>
+		<Capacitación></Capacitación>
+		<SalidaEstadistica></SalidaEstadistica>
+		<Jefes ></Jefes >
+		<ComunicacionOficial></ComunicacionOficial>
+		<BoletinSemanal></BoletinSemanal>
+		<CampusVirtual></CampusVirtual>
+	</proyecto>
+	<proyecto>
+		<Capa>Clínica</Capa>
+		<Nombre>Problemas HCE</Nombre>
+		<Responsable>Denise Levi</Responsable>
+		<Tutor>Leandro Alassia</Tutor>
+		<Objetivos>Rediseño del módulo </Objetivos>
+		<Etapas>Diagnostico de situación / analisis</Etapas>
+		<Prioridad>Media</Prioridad>
+		<UltimaPresentacion></UltimaPresentacion>
+		<ProximaPresentación></ProximaPresentación>
+		<Desarrollo>Si</Desarrollo>
+		<Procedimiento>No aplica</Procedimiento>
+		<Contingencia></Contingencia>
+		<EstadoInstructivo></EstadoInstructivo>
+		<Capacitación></Capacitación>
+		<SalidaEstadistica></SalidaEstadistica>
+		<Jefes ></Jefes >
+		<ComunicacionOficial></ComunicacionOficial>
+		<BoletinSemanal></BoletinSemanal>
+		<CampusVirtual></CampusVirtual>
+	</proyecto>
+
+</return>

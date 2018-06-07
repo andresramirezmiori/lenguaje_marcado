@@ -1,0 +1,338 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <title>UPE - Lenguajes Marcados</title>
+</head>
+
+<body>
+  <!-- Siempre agregamos comentarios al codigo para poder entender
+          futuramente de que se trata-->
+  
+  <div class="container">
+    <!--estos tags div se van a ver por todos lados, en gral se usan para ordenar el contenido de la pagina, no hace falta entenderlos y si los borraramos todos igualmente veriamos la pagina y todo su contenido. De momento con no darles bola de todas formas se puede leer el html-->
+    <div class="row title">
+      <div class="col">
+        <h1>Recursos de presentación de Lenguajes Marcados</h1>
+      </div>
+    </div>
+
+    <div class="row contenido-introduccion">
+      <div class="col">
+        <h2>Introducción</h2>
+    
+        <p>Durante la siguiente página y sus respectivos links, voy a intentar compartir todos los recursos que pueden llegar a ser de utilidad 
+          para consultar post la charla de lenguajes marcados. Se que dejé que la charla divirgiera para diversos temas, 
+          haciendo que muchisimas cosas quedaran poco claras, pero al menos me lleve una noción de las diversas dudas que tenian todos los participantes y las diferencias de conocimiento que existen. Igualmente creo que dando por segunda vez la misma charla, casi todas las dudas van a decantar bastante. Y tambien que a partir de estas charlas se puede prepara una clase mas interesante para los próximos ingresantes.
+        </p>
+
+      </div>
+    </div>
+
+    <div class="row contenido-tema">
+      <div class="col">
+        
+        <div class="row contenido-item">
+          <div class="col">
+            <h2>Tema1: XML/HTML</h2>
+            <p>
+              El primer tema que se quizo tratar fue mostrar uno de los lenguajes marcados mas genéricos, con más tiempo y uso, este es <strong>XML</strong>. Es mas, si nos volvieramos puristas, no deberiamos llamar XML como un lenguae de marcado, sino un <i>"meta-lenguaje que nos permite definir lenguajes de marcado adecuados a usos determinados"</i>. <strong>HTML</strong> (HyperText Markup Language) se define con <strong>XML</strong>, y debería ser el primer lenguaje de marcado que seguramente todos vieron alguna vez o al menos oyeron hablar de mismo. Lo primero que uno observa en estos lenguajes, es que se definen elementos entre lo que se llaman <strong>tags</strong> (etiquetas), estos se suelen escribir de la siguiente forma
+            </p>
+            <img src="images/tags.jpg" alt="etqueta y atributos">
+            <p style="margin-top: 10px">
+              Este caso define un elemento <strong>autor</strong>, con contenido "José Ramón", y un <strong>atributo</strong> pais con valor "España".
+              Un ejemplo muy claro de esto, es como se escribe en HTML una tabla, para esto vamos a usar los siguientes tags que pasamos a definir:
+            </p>
+            <!--con ul se definen listas sin ordenar, y cada item se define con li-->
+            <ul>
+              <li>
+                <strong>&lt;table&gt;&lt;/table&gt;:</strong> Estos tags indican que inicia y finaliza una tabla, todo lo que se encuentre entre estos tags tiene que ser parte de la tabla a representar
+              </li>
+              <li>
+                <strong>&lt;tr&gt;&lt;/tr&gt;:</strong> Table Row, con esta tupla se definen las filas de la tabla
+              </li>
+              <li>
+                <strong>&lt;td&gt;&lt;/td&gt;:</strong> Este tag representa una celda y se suele usar un par por cada columna de la tabla.
+              </li>
+            </ul>
+            Existen otros tags que se puede usar dentro de una tabla pero con estos deberia ser suficiente como para representar la siguiente tabla. Del lado izquierdo mostramos el código html y a la derecha la tabla.
+
+          </div>
+        </div>
+
+        <!--Inicio tabla en dos columnas -->
+        <div class="row contenido-item">
+          <div class="col contenido-codigo">
+            <br/>
+            <p>
+              <strong ">HTML que representa una tabla</strong>
+            </p>
+            <xmp>
+              <table>
+                <tr>
+                  <td>Nombre</td>
+                  <td>Apellido</td>
+                  <td>Edad</td>
+                </tr>
+                <tr >
+                  <td>Alguien</td>
+                  <td>UPE</td>
+                  <td>XX</td>
+                </tr>
+                <tr>
+                  <td>Andres</td>
+                  <td>Ramirez</td>
+                  <td>38</td>
+                </tr>
+              </table>
+            </xmp>
+
+          </div>
+          
+          <div class="col contenido-html" style="display: flex; vertical-align: middle;  align-items: center;">
+            <div style="width: 100%">
+              <p>
+              <strong ">Tabla que representa el html definido a la izquierda</strong>
+            </p>
+              <!-- se define la misma tabla que arriba con un par de cosas, para cambiar los estilos
+              igualmente en la carpeta archivos/simplePage esta la pagina tal como se mostro en la charla -->
+              <table class="table" >
+                <thead>
+                  <tr>
+                    <th>Nombre</th>
+                    <th>Apellido</th>
+                    <th>Edad</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Alguien</td>
+                    <td>UPE</td>
+                    <td>XX</td>
+                  </tr>
+                  <tr>
+                    <td>Andres</td>
+                    <td>Ramirez</td>
+                    <td>38</td>
+                  </tr>
+                </tbody>
+              </table>
+
+            </div>
+          </div>
+
+        </div>
+        <!--fin tabla en dos columnas-->
+
+        <div class="row contenido-item">
+          <div class="col">
+            <p>
+              Otra propiedad de estos tags es que algunos se puden cerrar en la misma linea sin definir los pares, tan solo poniendo al final del mismo una contrabarra. Por ejemplo para representar un salto de linea en html se suele usar <strong>br</strong> de la siguiente forma:
+              <br/>
+              &lt;br/&gt;
+              <br/>
+              También vimos <strong>SVG</strong> como otro lenguaje de marcado que permite representar gráficos, y es el mismo con el cual se contruye el odontograma que esta proximo a salir en la historia clínica. En el siguiente link se puede ver un monton de ejemplos de <strong>SVG</strong>. Los mismos se pueden modificar en linea y ver el resultado. 
+              <br/>
+              <a href="https://www.w3schools.com/graphics/svg_examples.asp" target="_blank">Ejemplos SVG</a>
+            </p>
+            <p>
+              Una de las cosas mas importantes de todo esto es el uso que se le da a XML para compartir información, tal como <strong>SVG</strong> define un circulo o un rectángulo con los respectivos tags &lt;circle&gt;, &lt;rectangle&gt; y <strong>HMTL</strong> tablas y párrafos con &lt;table&gt; y &lt;p&gt;. Nosotros podriamos definir cualquier dato que quisieramos compartir, como Pacientes, Turnos, Consultas, etc. Por ejemplo si se quisiera representar con XML los proyectos que la UPE tiene en la hoja de seguimientos se podria hacer de la siguiente forma
+            </p>
+            <xmp>
+              <proyecto>
+                <Capa>Clínica</Capa>
+                <Nombre>Problemas HCE</Nombre>
+                <Responsable>Denise Levi</Responsable>
+                <Tutor>Leandro Alassia</Tutor>
+                <Objetivos>Rediseño del módulo </Objetivos>
+                <Etapas>Diagnostico de situación / analisis</Etapas>
+                <Prioridad>Media</Prioridad>
+                <UltimaPresentacion></UltimaPresentacion>
+                <ProximaPresentación></ProximaPresentación>
+                <Desarrollo>Si</Desarrollo>
+                <Procedimiento>No aplica</Procedimiento>
+                <Contingencia></Contingencia>
+                <EstadoInstructivo></EstadoInstructivo>
+                <Capacitación></Capacitación>
+                <SalidaEstadistica></SalidaEstadistica>
+                <Jefes ></Jefes >
+                <ComunicacionOficial></ComunicacionOficial>
+                <BoletinSemanal></BoletinSemanal>
+                <CampusVirtual></CampusVirtual>
+              </proyecto>
+            </xmp>
+
+            <p>El siguiente archivo representaria 10 de los proyectos de la hoja de seguimiento
+                <a href="archivos/proyectosUpe.xml" target="_blank">proyectosUpe.xml</a>
+            </p>
+            
+          </div>
+        </div>
+
+      </div>
+    </div>
+    
+    <div class="row contenido-tema">
+      <div class="col">
+
+        <div class="row contenido-item">
+          <div class="col">
+            <h2>Tema2: JSON</h2>
+            <p>Como segundo tema, igual es todo parte de lo mismo, se queria mostrar <strong>JSON</strong>, que es el lenguaje preferido por las API's y supongo que uno de los mas usados para el intercambio de información. La Wikipedia lo define como: 
+              <br/>
+              <i>"JSON (/ˈdʒeɪsən/ JAY-sən), acrónimo de JavaScript Object Notation, es un formato de texto ligero para el intercambio de datos. JSON es un subconjunto de la notación literal de objetos de JavaScript aunque hoy, debido a su amplia adopción como alternativa a XML, se considera un formato de lenguaje independiente."</i>
+              <br/>
+              En JSON existen objetos y listas de objetos, todos los objetos se definen entre los caracteres de llaves <STRONG>{ }</STRONG>, y dentro contienen pares del tipo clave valor, y para definir un lista de objetos, se ponen muchos objetos serparados por coma dentro de los caracteres corchetes <strong>[ ]</strong>. Continuando con el ejemplo del proyecto de la UPE, en JSON se escribiria de la siguiente forma:
+              <xmp>
+                [
+                   {
+                      "Capa": "Clínica",
+                      "Nombre": "HCE primer nivel",
+                      "Responsable": "Florencia Faretta",
+                      "Tutor": "Leandro Alassia",
+                      "Objetivos": "Diseñar un modelo de HCE que satisfaga los casos de uso del 1er nivel",
+                      "Etapas": "Diseño y planificación de la solución",
+                      "Prioridad": "Alta",
+                      "UltimaPresentacion": "24/01/2018",
+                      "ProximaPresentación": "",
+                      "Desarrollo": "Si",
+                      "Procedimiento": "No aplica",
+                      "Contingencia": "Revisión",
+                      "EstadoInstructivo": "",
+                      "Capacitación": "",
+                      "SalidaEstadistica": "",
+                      "Jefes": "",
+                      "ComunicacionOficial": "",
+                      "BoletinSemanal": "",
+                      "CampusVirtual": ""
+                   },
+                   {
+                      "Capa": "Admin",
+                      "Nombre": "Federación personas",
+                      "Responsable": "Candela Burgo",
+                      "Tutor": "Victoria Giussi",
+                      "Objetivos": "Integrar SIGEHOS con la federación de personas a nivel nacional",
+                      "Etapas": "Diseño y planificación de la solución",
+                      "Prioridad": "Media",
+                      "UltimaPresentacion": "3/01/2018",
+                      "ProximaPresentación": "",
+                      "Desarrollo": "Si",
+                      "Procedimiento": "Se aguardan definiciones de Nación",
+                      "Contingencia": "En construcción",
+                      "EstadoInstructivo": "",
+                      "Capacitación": "",
+                      "SalidaEstadistica": "",
+                      "Jefes": "",
+                      "ComunicacionOficial": "",
+                      "BoletinSemanal": "",
+                      "CampusVirtual": ""
+                   }
+                ]
+              </xmp>
+              Todas las APIS de SIGEHOS retornan JSON, como ejemplo se puede ingresar a la siguiente <a href="https://sigehos.gcba.gob.ar/sigehos/padron/api/v2/pacientes/">URL</a> y ver los pacientes empadonados, hace falta estar logueado en sigehos para poder acceder a la misma. 
+              <br/>
+              La idea de este documento no es que sea autocontenido asique de momento no se va a explicar que es una API ni como funcionan aca, pero con la proxima charla todo deberia quedar mucho más claro
+            </p>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="row contenido-tema">
+      <div class="col">
+
+        <div class="row contenido-item">
+          <div class="col">
+            <h2>SOAP UI</h2>
+            <p>Bueno finalmente todo esto era para mostrar como consumir terminologia usando <a href="https://www.soapui.org/downloads/soapui.html">SOAP UI</a>. La idea tampoco es explicar aca que es SOAP, ni que es terminología y en todo caso si alguien quiere escribir algo al respecto, luego podemos agregar los vinculos en la seccion de recursos o aca mismo. De momento lo que nos interesa es saber que se puede consumir terminologia del Italiano con este aplicativo y como consumir la misma. Para esto tiene los siguientes dos recuros que corresponden a los servicios de terminologia de test y de produccion respectivamente:
+              <ul>
+                <li><strong>Test:</strong> http://www1.hospitalitaliano.org.ar:8082/TerminologiaWSMultiContextoTest/TerminologiaWSService?wsdl</li>
+                <li><strong>Produccion:</strong> http://wstermhiba.org.ar:8082/TerminologiaWSMultiContexto/TerminologiaWSService?wsdl</li>
+              </ul>
+
+              Una vez instalado <strong>SOAP UI</strong>, en caso de estar en la red del ministerio, hay que configurar el proxy en preferencias y luego con el recurso anterior crear un nuevo proyecto SOAP. Dentro del proxy hay que poner los siguientes datos
+              <ul>
+                <li>Proxy Setting: Manual</li>
+                <li>Host: 10.200.72.32</li>
+                <li>Port: 8080</li>
+                <li>Username y Password: los correspondienes a la cuenta de ciudad de cada uno</li>
+              </ul>
+
+              La siguiente imagen muestra esto mismo <br/>
+
+              <img src="images/crearProyectoSOAP.gif" alt="Pasos para crear nuevo proyecto SOAP" width="100%" />
+              <br/>
+              Finalmente para poder consumir oferta de terminos que se hace con el servicio <strong>obetenerOfertaTextos</strong>, se necesita contar con un ID de institución, este identifica que institución esta consumiendo terminologia, y el id de subset donde queremos buscar el término. Los datos serian los de la siguiente tabla
+
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th>Clave</th>
+                    <th>Valor</th>
+                  </tr>
+                </thead>
+                <body>
+                  <tr>
+                    <td>ID_INSTITUCION</td>
+                    <td>39261000999136</td>
+                  </tr>
+                  <tr>
+                    <td>SUBSET_PROBLEMA</td>
+                    <td>601000999132</td>
+                  </tr>
+                  <tr>
+                    <td>SUBSET_PROCEDIMIENTO</td>
+                    <td>631000999139</td>
+                  </tr>
+                  <tr>
+                    <td>SUBSET_ANTECEDENTE_FAMILIAR</td>
+                    <td>771000999131</td>
+                  </tr>
+                  <tr>
+                    <td>SUBSET_PRACTICA</td>
+                    <td>20761000999138</td>
+                  </tr>
+                </body>
+              </table>
+              En la próxima imagen se pude ver como se consume terminologia con estos datos<br/>
+
+              <img src="images/consumoOferta.gif" alt="Pasos para obtener oferta de textos" width="100%" />
+              <br/>
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    
+    
+    <div class="row contenido-tema">
+      <div class="col">
+
+        <div class="row contenido-item">
+          <div class="col">
+            <h2>Recursos</h2>
+            <p>Se pasa a listar diferentes recuros utilizados, tanto para escribir este archivo como para mostrar las diversas cosas utilizadas en la charla</p>
+            <ul>
+              <li><strong>SOAP-UI:</strong>Programa para consumir servicios SOAP, también permite consumir REST (https://www.soapui.org/downloads/soapui.html)</li>
+              <li><strong>POSTMAN:</strong>Programa para consumir servicios REST (APIs generalmente), generalmente compartimos colecciones de recursos creadas con este programa (https://www.getpostman.com/)</li>
+              <li><strong>ScreenCastify:</strong>Extensión de chrome que permite crear videos mientras se usa el sistema, útil para tutoriales etc (https://www.screencastify.com/)</li>
+              <li><strong>Sublime:</strong>IDE utilizado para escribir esta pagina (https://www.sublimetext.com/). Tambien hay otros como Notepad++, etc</li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    
+  </div>
+</body>
+</html>

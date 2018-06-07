@@ -1,0 +1,108 @@
+<S:Envelope xmlns:S="http://schemas.xmlsoap.org/soap/envelope/">
+	   <S:Body>
+		     <ns2:obtenerOfertaTextosResponse xmlns:ns2="http://ws.hospitalitaliano.org.ar/">
+				     <return>
+						      <dominios>601000999132</dominios>
+                  <entrada>MO</entrada>
+		              <explicacion>El texto ingresado es muy general para su utilizacion posterior, y ha sido marcado para que se deba ingresar un texto mas especifico. Debe elegir una opcion de las presentadas.</explicacion>
+			            <idDescripcion>16641000999119</idDescripcion>
+					        <idDescripcionPreferido>537041000999118</idDescripcionPreferido>
+						      <legible>N</legible>
+								  <multiplicidad>N</multiplicidad>
+									<ofertaTextoDetalle>
+									    <conceptId>5631000999100</conceptId>
+											<descriptionId>512291000999112</descriptionId>
+											<texto>DIABETES MELLITUS TIPO 2</texto>
+											<textoOrigenSimilitud/>
+									</ofertaTextoDetalle>
+									<ofertaTextoDetalle>
+									    <conceptId>5641000999109</conceptId>
+											<descriptionId>181791000999118</descriptionId>
+											<texto>DIABETES MELLITUS TIPO 1</texto>
+											<textoOrigenSimilitud/>
+									</ofertaTextoDetalle>
+									<ofertaTextoDetalle>
+									    <conceptId>6531000999105</conceptId>
+											<descriptionId>20281000999118</descriptionId>
+											<texto>DIABETES MELLITUS SECUNDARIA</texto>
+											<textoOrigenSimilitud/>
+									</ofertaTextoDetalle>
+									<ofertaTextoDetalle>
+											<conceptId>5791000999107</conceptId>
+											<descriptionId>8497701000999110</descriptionId>
+											<texto>DIABETES POST TRASPLANTE</texto>
+											<textoOrigenSimilitud/>
+									</ofertaTextoDetalle>
+									<ofertaTextoDetalle>
+											<conceptId>581101000999103</conceptId>
+											<descriptionId>7674681000999116</descriptionId>
+											<texto>DIABETES MELLITUS SIN COMPLICACIONES</texto>
+											<textoOrigenSimilitud/>
+									</ofertaTextoDetalle>
+									<ofertaTextoDetalle>
+											<conceptId>286471000999100</conceptId>
+											<descriptionId>3486611000999118</descriptionId>
+											<texto>DIABETES INSULINORREQUIRIENTE SECUNDARIA</texto>
+											<textoOrigenSimilitud/>
+									</ofertaTextoDetalle>
+									<ofertaTextoDetalle>
+											<conceptId>576001000999104</conceptId>
+											<descriptionId>7674711000999115</descriptionId>
+											<texto>DIABETES MELLITUS SIN RETINOPATIA DIABETICA</texto>
+											<textoOrigenSimilitud/>
+									</ofertaTextoDetalle>
+									<ofertaTextoDetalle>
+											<conceptId>5831000999101</conceptId>
+											<descriptionId>181801000999117</descriptionId>
+											<texto>DIABETES MELLITUS TIPO LADA</texto>
+											<textoOrigenSimilitud/>
+									</ofertaTextoDetalle>
+									<ofertaTextoDetalle>
+											<conceptId>285101000999109</conceptId>
+											<descriptionId>9115871000999118</descriptionId>
+											<texto>DIABETES POSTQUIRURGICA</texto>
+											<textoOrigenSimilitud/>
+									</ofertaTextoDetalle>
+									<ofertaTextoDetalle>
+											<conceptId>6661000999101</conceptId>
+											<descriptionId>9138851000999113</descriptionId>
+											<texto>DIABETES SECUNDARIA A TUMOR PANCREATICO</texto>
+											<textoOrigenSimilitud/>
+									</ofertaTextoDetalle>
+									<ofertaTextoDetalle>
+											<conceptId>285471000999109</conceptId>
+											<descriptionId>9398021000999114</descriptionId>
+											<texto>DIABETES TIPO II POST QUIRURGICO</texto>
+											<textoOrigenSimilitud/>
+									</ofertaTextoDetalle>
+									<ofertaTextoDetalle>
+											<conceptId>288221000999104</conceptId>
+											<descriptionId>9398001000999117</descriptionId>
+											<texto>DIABETES TIPO II LATENTE DEL ADULTO</texto>
+											<textoOrigenSimilitud/>
+									</ofertaTextoDetalle>
+									<ofertaTextoDetalle>
+											<conceptId>700901000999106</conceptId>
+											<descriptionId>9429201000999118</descriptionId>
+											<texto>DIABETES MELLITUS MATERNA</texto>
+											<textoOrigenSimilitud/>
+									</ofertaTextoDetalle>
+									<ofertaTextoDetalle>
+											<conceptId>1076241000999109</conceptId>
+											<descriptionId>2680421000999117</descriptionId>
+											<texto>DIABETES POSTPANCREATECTOMIA</texto>
+											<textoOrigenSimilitud/>
+									</ofertaTextoDetalle>
+									<ofertaTextoDetalle>
+											<conceptId>286971000999108</conceptId>
+											<descriptionId>9085121000999117</descriptionId>
+											<texto>INSUFICIENCIA RENAL CRONICA ASOCIADA A DIABETES TIPO I</texto>
+											<textoOrigenSimilitud/>
+									</ofertaTextoDetalle>
+									<refinacionObligatoria>S</refinacionObligatoria>
+									<textoPreferido>DIABETES MELLITUS</textoPreferido>
+									<titulo>Debe seleccionar una de estas opciones</titulo>
+							</return>
+					</ns2:obtenerOfertaTextosResponse>
+			</S:Body>
+	</S:Envelope>
